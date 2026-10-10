@@ -1,271 +1,331 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Celular y tecno</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="logo">CELL-TEC</div>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#promocion">Promociones</a></li>
-                  <li><a href="#catalogo">Catalogo</a></li>
-                <li><a href="#beneficios">Por que comprar...</a></li>
-                <li><a href="#oferta">Ofertas</a></li>
-                <li><a href="#ubicacion">Ubicación</a></li>
-                <li><a href="#contactanos">Redes Sociales</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">CELL-TEC</div>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#promocion">Promociones</a></li>
+          <li><a href="#catalogo">Catalogo</a></li>
+          <li><a href="#beneficios">Por que comprar...</a></li>
+          <li><a href="#oferta">Ofertas</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#contactanos">Redes Sociales</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="inicio" class="container my-5">
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <section id="inicio" class="container my-5">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Imagen 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="1"
+              aria-label="Imagen 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide-to="2"
+              aria-label="Imagen 3"
+            ></button>
+          </div>
 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Imagen 1"></button>
-                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
-                        aria-label="Imagen 2"></button>
-                    <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
-                        aria-label="Imagen 3"></button>
-                </div>
-
-                <div class="carousel-inner rounded-5">
-                    <div class="carousel-item active">
-                        <img src="images/celular_1.png" class="d-block w-100" alt="Celular 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/celular_2.png" class="d-block w-100" alt="Celular 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/celular_3.png" class="d-block w-100" alt="Celular 3">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
+          <div class="carousel-inner rounded-5">
+            <div class="carousel-item active">
+              <img
+                src="images/celular_1.png"
+                class="d-block w-100"
+                alt="Celular 1"
+              />
             </div>
-
-        </section>
-        <section id="promocion" class="container my-5">
-<h2>Promociones Sugeridas</h2>
-            <div class="row row-cols-2 row-cols-md-4 g-4 productos-grid">
-                <div class="col">
-                    <div class="card producto-card h-100">
-                        <img src="images/celular_4.png" class="card-img" alt="Cuarto">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone rosa en promoción</h5>
-                            <p class="card-text">Diseño moderno y cámara para tus mejores momentos. Consulta precio y disponibilidad</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card producto-card h-100">
-                        <img src="images/celular_5.png" class="card-img" alt="Quinto">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone Pro: potencia y estilo</h5>
-                            <p class="card-text">Una opción premium para trabajar, crear contenido y disfrutar tus aplicaciones favoritas</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card producto-card h-100">
-                        <img src="images/celular_6.png" class="card-img" alt="Sexto">
-                        <div class="card-body">
-                            <h5 class="card-title">iPhone oscuro con precio especial</h5>
-                            <p class="card-text">Renueva tu celular con un diseño elegante. Pregunta por la oferta vigente</p>
-                        </div>
-                    </div>
-                </div>
-
-                  <div class="col">
-                    <div class="card producto-card h-100">
-                        <img src="images/celular_11.png" class="card-img" alt="Onceavo">
-                        <div class="card-body">
-                            <h5 class="card-title">Huawei turquesa destacado</h5>
-                            <p class="card-text">Un diseño llamativo para quienes buscan renovar su equipo. Consulta las promociones disponibles</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="images/celular_2.png"
+                class="d-block w-100"
+                alt="Celular 2"
+              />
             </div>
-        </section>
-
-<section id="catalogo" class="container my-5">
-    <h2>Catálogo disponibles</h2>
-
-    <div class="modelos">
-        <div class="modelo">
-            <img src="images/celular_7.png" alt="Samsung Galaxy A15">
-            <div class="modelo-info">
-                <h3>Samsung Galaxy A15</h3>
-                <p>Ideal para redes, videos y tareas diarias.</p>
-                <p>S/ 649</p>
-                <div class="d-grid gap-2">
-                    <button class="btn" type="button">Más información</button>
-                    <button class="btn" type="button">Comprar</button>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="images/celular_3.png"
+                class="d-block w-100"
+                alt="Celular 3"
+              />
             </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
         </div>
-
-        <div class="modelo">
-            <img src="images/celular_8.png" alt="Motorola moto g75 5G">
-            <div class="modelo-info">
-                <h3>Motorola moto g75 5G</h3>
-                <p>Con conexión 5G y pantalla Full HD+.</p>
-                <p>S/ 1,099</p>
-                <div class="d-grid gap-2">
-                    <button class="btn" type="button">Más información</button>
-                    <button class="btn" type="button">Comprar</button>
-                </div>
+      </section>
+      <section id="promocion" class="container my-5">
+        <h2>Promociones Sugeridas</h2>
+        <div class="row row-cols-2 row-cols-md-4 g-4 productos-grid">
+          <div class="col">
+            <div class="card producto-card h-100">
+              <img src="images/celular_4.png" class="card-img" alt="Cuarto" />
+              <div class="card-body">
+                <h5 class="card-title">iPhone rosa en promoción</h5>
+                <p class="card-text">
+                  Diseño moderno y cámara para tus mejores momentos. Consulta
+                  precio y disponibilidad
+                </p>
+              </div>
             </div>
+          </div>
+
+          <div class="col">
+            <div class="card producto-card h-100">
+              <img src="images/celular_5.png" class="card-img" alt="Quinto" />
+              <div class="card-body">
+                <h5 class="card-title">iPhone Pro: potencia y estilo</h5>
+                <p class="card-text">
+                  Una opción premium para trabajar, crear contenido y disfrutar
+                  tus aplicaciones favoritas
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card producto-card h-100">
+              <img src="images/celular_6.png" class="card-img" alt="Sexto" />
+              <div class="card-body">
+                <h5 class="card-title">iPhone oscuro con precio especial</h5>
+                <p class="card-text">
+                  Renueva tu celular con un diseño elegante. Pregunta por la
+                  oferta vigente
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card producto-card h-100">
+              <img src="images/celular_11.png" class="card-img" alt="Onceavo" />
+              <div class="card-body">
+                <h5 class="card-title">Huawei turquesa destacado</h5>
+                <p class="card-text">
+                  Un diseño llamativo para quienes buscan renovar su equipo.
+                  Consulta las promociones disponibles
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="modelo">
-            <img src="images/celular_9.png" alt="Xiaomi Redmi Note 14S">
+      <section id="catalogo" class="container my-5">
+        <h2>Catálogo disponibles</h2>
+
+        <div class="modelos">
+          <div class="modelo">
+            <img src="images/celular_7.png" alt="Samsung Galaxy A15" />
             <div class="modelo-info">
-                <h3>Xiaomi Redmi Note 14S</h3>
-                <p>Una opción versátil para fotos y entretenimiento.</p>
-                <p>S/ 899</p>
-                <div class="d-grid gap-2">
-                    <button class="btn" type="button">Más información</button>
-                    <button class="btn" type="button">Comprar</button>
-                </div>
+              <h3>Samsung Galaxy A15</h3>
+              <p>Ideal para redes, videos y tareas diarias.</p>
+              <p>S/ 649</p>
+              <div class="d-grid gap-2">
+                <button class="btn" type="button">Más información</button>
+                <button class="btn" type="button">Comprar</button>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div class="modelo">
-            <img src="images/celular_10.png" alt="Huawei, modelo por confirmar">
+          <div class="modelo">
+            <img src="images/celular_8.png" alt="Motorola moto g75 5G" />
             <div class="modelo-info">
-                <h3>Huawei, modelo por confirmar</h3>
-                <p>Diseño moderno para el uso diario.</p>
-                <p>S/ 899</p>
-                <div class="d-grid gap-2">
-                    <button class="btn" type="button">Más información</button>
-                    <button class="btn" type="button">Comprar</button>
-                </div>
+              <h3>Motorola moto g75 5G</h3>
+              <p>Con conexión 5G y pantalla Full HD+.</p>
+              <p>S/ 1,099</p>
+              <div class="d-grid gap-2">
+                <button class="btn" type="button">Más información</button>
+                <button class="btn" type="button">Comprar</button>
+              </div>
             </div>
+          </div>
+
+          <div class="modelo">
+            <img src="images/celular_9.png" alt="Xiaomi Redmi Note 14S" />
+            <div class="modelo-info">
+              <h3>Xiaomi Redmi Note 14S</h3>
+              <p>Una opción versátil para fotos y entretenimiento.</p>
+              <p>S/ 899</p>
+              <div class="d-grid gap-2">
+                <button class="btn" type="button">Más información</button>
+                <button class="btn" type="button">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="modelo">
+            <img
+              src="images/celular_10.png"
+              alt="Huawei, modelo por confirmar"
+            />
+            <div class="modelo-info">
+              <h3>Huawei, modelo por confirmar</h3>
+              <p>Diseño moderno para el uso diario.</p>
+              <p>S/ 899</p>
+              <div class="d-grid gap-2">
+                <button class="btn" type="button">Más información</button>
+                <button class="btn" type="button">Comprar</button>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
+      <section id="beneficios" class="info-section my-5">
+        <h2>Por qué comprar en CELL CELL-TEC?</h2>
 
-        <section id="beneficios" class="info-section my-5">
-            <h2>Por qué comprar en CELL CELL-TEC?</h2>
+        <div class="info-boxes">
+          <div class="info-box">
+            <h3>Garantía</h3>
+            <p>Todos nuestros celulares cuentan con garantía</p>
+          </div>
+          <div class="info-box">
+            <h3>Envios</h3>
+            <p>Recibe tu compra en la puerta de tu casa</p>
+          </div>
+          <div class="info-box">
+            <h3>Asesoría</h3>
+            <p>Te ayudamos a elegir el celular indicado para ti</p>
+          </div>
+        </div>
+      </section>
 
-            <div class="info-boxes">
-                <div class="info-box">
-                    <h3>Garantía</h3>
-                    <p>Todos nuestros celulares cuentan con garantía</p>
-                </div>
-                <div class="info-box">
-                    <h3>Envios</h3>
-                    <p>Recibe tu compra en la puerta de tu casa</p>
-                </div>
-                <div class="info-box">
-                    <h3>Asesoría</h3>
-                    <p>Te ayudamos a elegir el celular indicado para ti</p>
-                </div>
-            </div>
-        </section>
+      <section id="oferta" class="container my-5">
+        <h2>Ofertas especiales</h2>
+        <div class="descuentos-box">
+          <div class="descuento">
+            <h3>20% Off</h3>
+            <p>Celular modelo 1</p>
+            <p><del>S/ 1,200</del></p>
+            <p><strong>Ahora: S/ 980</strong></p>
+            <p>Oferta solo por tiempo limitado</p>
+          </div>
+          <div class="descuento">
+            <h3>15% Off</h3>
+            <p>Celular modelo 2</p>
+            <p><del>S/ 1,100</del></p>
+            <p><strong>Ahora: S/ 850</strong></p>
+            <p>Hasta agotar stock</p>
+          </div>
+        </div>
+      </section>
 
-        <section id="oferta" class="container my-5">
-            <h2>Ofertas especiales</h2>
-            <div class="descuentos-box">
-                <div class="descuento">
-                    <h3>20% Off</h3>
-                    <p>Celular modelo 1</p>
-                    <p><del>S/ 1,200</del></p>
-                    <p><strong>Ahora: S/ 980</strong></p>
-                    <p>Oferta solo por tiempo limitado</p>
-                </div>
-                <div class="descuento">
-                    <h3>15% Off</h3>
-                    <p>Celular modelo 2</p>
-                    <p><del>S/ 1,100</del></p>
-                    <p><strong>Ahora: S/ 850</strong></p>
-                    <p>Hasta agotar stock</p>
-                </div>
-            </div>
+      <section id="ubicacion" class="container my-5">
+        <h2>Ubicación y contacto</h2>
+        <div class="ubicacion">
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!4v1791600078835!6m8!1m7!1s3ft_eCVvv3cC5ZCRqbNJuQ!2m2!1d-13.41645054584509!2d-76.1348624666596!3f84.90847186090562!4f-6.041703508991674!5f0.7820865974627469"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            >
+              tittle="Mapa de ubicación" loading="lazy" allowfullscreen>
+            </iframe>
+          </div>
+          <div class="contacto">
+            <p><strong>Dirección:</strong>Jirón italia</p>
+            <p>
+              <strong>Horario de atención</strong>Lunes a Sábado de 8:45 am a
+              5:15pm
+            </p>
+            <p><strong>Teléfono</strong>987656432</p>
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-        <section id="ubicacion" class="container my-5">
-            <h2>Ubicación y contacto</h2>
-            <div class="ubicacion">
-                <div class="mapa">
-                    <iframe 
-                    src="https://www.google.com/maps/embed?pb=!4v1791600078835!6m8!1m7!1s3ft_eCVvv3cC5ZCRqbNJuQ!2m2!1d-13.41645054584509!2d-76.1348624666596!3f84.90847186090562!4f-6.041703508991674!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
-                    tittle="Mapa de ubicación"
-                    loading="lazy"
-                    allowfullscreen>
-                    </iframe>
-                </div>
-                <div class="contacto">
-                    <p><strong>Dirección:</strong>Jirón italia</p>
-                    <p><strong>Horario de atención</strong>Lunes a Sábado de 8:45 am a 5:15pm</p>
-                    <p><strong>Teléfono</strong>987656432</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contactanos" class="container my-5">
-            <h2>Redes Sociales</h2>
-            <div class="table-responsive">
-                <table class="table table-hover align-middle">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Red Social</th>
-                        <th scope="col">Usuario</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Tiktok</td>
-                        <td>@cell.tec</td>
-                    </tr>
-                     <tr>
-                        <th scope="row">2</th>
-                        <td>Instagram</td>
-                        <td>tec.cell</td>
-                    </tr>
-                     <tr>
-                        <th scope="row">3</th>
-                        <td>Facebook</td>
-                        <td>Cell&Tec</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+      <section id="contactanos" class="container my-5">
+        <h2>Redes Sociales</h2>
+        <div class="table-responsive">
+          <table class="table table-hover align-middle">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Red Social</th>
+                <th scope="col">Usuario</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Tiktok</td>
+                <td>@cell.tec</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Instagram</td>
+                <td>tec.cell</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Facebook</td>
+                <td>Cell&Tec</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div>
-            <h4>Información de compra</h4>
-            <p>Medios de pago: efectivo y tarjetas</p>
-            <p>Consulta las copndiciones de garantia y cambios</p>
-        </div>
+      <div>
+        <h4>Información de compra</h4>
+        <p>Medios de pago: efectivo y tarjetas</p>
+        <p>Consulta las copndiciones de garantia y cambios</p>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+  </body>
 </html>
